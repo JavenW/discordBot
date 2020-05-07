@@ -4,7 +4,7 @@ module.exports = {
     description: 'Add into the #queue!',
     cooldown: 0,
     guildOnly: true,
-    args: false,
+    args: true,
     usage: '',
     execute(message, args, queue, teamA, teamB, userMap) {
         let addUser = message.mentions.users.first();
